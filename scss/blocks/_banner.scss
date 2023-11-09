@@ -1,0 +1,81 @@
+.banner {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 77px;
+}
+
+.banner-frame {
+    width: 860px;
+    height: 484px;
+    
+}
+
+.banner-img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.banner-text {
+    color: white;
+}
+
+.banner-text-head {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner-text-main {
+    width: 420px;
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner-text-add {
+    position: relative;
+    margin-top: 40px;
+    width: 220px;
+    height: 58px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 15px 45px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 600;
+    transition: 2s;
+    z-index: 1;
+
+    &::before {
+        content: "";
+        position: absolute;
+        border-radius: inherit;
+        top:0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: var(--NIO, linear-gradient(47deg, #36A9E1 10.05%, #1D71B8 38.8%, #2D2E83 71.5%, #29235C 97.41%));
+        z-index: -1;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: inherit;
+        background: var(--NIO, linear-gradient(120deg, #36A9E1 12%, #1D71B8 28%, #2D2E83 66%, #29235C 97.41%));
+        z-index: -1;
+        opacity: 0;
+    }
+
+    &:hover::after {
+        transition: inherit;
+        opacity: 1;
+    }
+}

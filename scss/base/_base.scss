@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: $font-main;
+    background-color: $dark-purple;
+    
+}
+
+a {
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1440px;
+}
