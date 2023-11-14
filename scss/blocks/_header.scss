@@ -10,6 +10,7 @@
     font-weight: 600;
     font-size: 28px;
     align-items: center;
+    width: 100%;
 }
 
 .header-nav__btn {
@@ -53,6 +54,10 @@
         opacity: 1;
         transition: inherit;
     }
+}
+
+.header-nav__img {
+    vertical-align: middle;
 }
 
 

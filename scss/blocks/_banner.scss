@@ -1,14 +1,13 @@
 .banner {
     margin-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
     gap: 77px;
 }
 
 .banner-frame {
     width: 860px;
     height: 484px;
-    
 }
 
 .banner-img {
@@ -23,11 +22,17 @@
 .banner-text-head {
     font-size: 40px;
     font-weight: 700;
+    width: 480px;
+}
+
+.banner-text__organize {
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .banner-text-main {
     width: 420px;
-    margin-top: 22px;
     font-size: 24px;
     font-weight: 600;
 }
@@ -78,4 +83,8 @@
         transition: inherit;
         opacity: 1;
     }
+}
+
+.banner-text-add__img{
+    vertical-align: middle;
 }

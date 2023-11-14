@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1749px) {
+    .banner-text-head {
+        font-size: 32px;
+        width: 99%;
+    }
+
+    .banner-text-main {
+        width: 100%;
+    }
+
+    .game-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        font-size: 20px;
+    }
+
+    .header-nav__img {
+        width: 30px;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .banner-frame {
+        width: 99.5%;
+        height: 100%;
+    }
+
+    .banner-text {
+        margin-top: 50px;
+    }
+
+    .banner-text-head {
+        margin-left: 20px;
+        width: 99%;
+    }
+
+    .banner-text__organize {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner-text-main {
+        margin-left: 20px;
+        width: 120%;
+    }
+
+    .banner-text-add {
+        margin: auto auto;
+    }
+
+    .game-list {
+        margin: 0 auto;
+        margin-top: 100px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .banner {
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    .banner-text-main {
+        font-size: 18px;
+    }
+
+    .game-list__item {
+        width: 300px;
+        height: 212px;
+    }
+
+    .game-list__item-description {
+        font-size: 19px;
+    }
+
+    .game-list__item-button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 0;
+    }
+
+    .header-logo {
+        width: 200px;
+    }
+
+    .banner-text-main {
+        width: 95%;
+    }
+
+    .banner-text__organize {
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .game-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .game-list__item {
+        width: 375px;
+        height: 265px;
+    }
+    
+    .game-list__item-description {
+        font-size: 24px;
+    }
+
+    .game-list__item-button {
+        font-size: 24px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .footer-organize {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sales-main__organize {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+
+    .sales-main__img {
+        margin-left: 20px;
+        width: 95%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .header-bg {
+        height: 100px;
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .header-logo {
+        width: 150px;
+    }
+
+    .game-list__item {
+        width: 300px;
+        height: 212px;
+    }
+
+    .game-list__item-description {
+        font-size: 19px;
+    }
+
+    .game-list__item-button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+}

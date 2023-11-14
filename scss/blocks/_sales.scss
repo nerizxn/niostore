@@ -1,0 +1,35 @@
+.sales-main {
+    margin-top: 25px;
+}
+
+.sales-main__title {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sales-main__organize {
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sales-main__img {
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.sales-main__text {
+    margin-left: 20px;
+    width: 70%;
+    font-size: 24px;
+}
+
+.sales-main__span {
+    background: $nio-gradient;
+    background-clip: text;
+    font-size: 26px;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
