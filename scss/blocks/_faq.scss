@@ -1,0 +1,16 @@
+.expandable {
+    margin-top: 15px;
+    overflow: hidden;
+    transition: all .5s ease-in;
+    height: 0;
+}
+
+.expandable-btn {
+    padding: 10px 100px 10px 0;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+.expandable:target {
+    height: 50px;
+}
