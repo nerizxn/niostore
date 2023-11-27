@@ -6,7 +6,7 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     font-weight: 600;
     font-size: 28px;
     align-items: center;
@@ -56,10 +56,17 @@
     }
 }
 
+
 .header-nav__img {
     vertical-align: middle;
+    width: 42px;
+    height: 42px;
 }
 
+.header-nav__img-sale {
+    width: 25%;
+    height: 25%;
+}
 
 .active {
     position: relative;
