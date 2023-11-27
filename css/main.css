@@ -170,6 +170,13 @@ a {
 
 .header-nav__img {
   vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+.header-nav__img-sale {
+  width: 25%;
+  height: 25%;
 }
 
 .active {
@@ -422,8 +429,14 @@ span.footer-nio {
   -webkit-text-fill-color: transparent;
 }
 
+.faq {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+
 .expandable {
-  margin-top: 15px;
+  margin: 15px 0;
   overflow: hidden;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
@@ -431,7 +444,8 @@ span.footer-nio {
 }
 
 .expandable-btn {
-  padding: 10px 100px 10px 0;
+  display: block;
+  padding: 10px 100px 10px 10px;
   border-radius: 10px;
   border: solid 1px;
 }
@@ -464,6 +478,9 @@ span.footer-nio {
     width: 150px;
   }
   .header-nav__img {
+    width: 30px;
+  }
+  .header-nav__img-sale {
     width: 30px;
   }
   .banner {
