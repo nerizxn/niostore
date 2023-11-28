@@ -1,78 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="css/main.min.css" />
+        <title>NIOSTORE</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="css/main.min.css" />
-    <title>NIOSTORE</title>
-</head>
-
-<body>
-    <header class="header-bg">
-        <div class="container">
-            <div class="header">
-                <a class="header-logo" href="/index.html">
-                    <img src="/img/svg/logo.svg" alt="logo" />
-                </a>
-                <a href="/index.html" class="header-nav__btn">
-                    <img src="/img/svg/bag.svg" alt="bag" class="header-nav__img" />
-                    Магазин
-                </a>
-                <a href="/sales.html" class="header-nav__btn">
-                    <img src="/img/svg/sale.svg" alt="sale" class="header-nav__img-sale" />
-                    Скидки
-                </a>
-                <a href="/faq.html" class="header-nav__btn active">
-                    <img src="/img/svg/faq.svg" alt="faq" class="header-nav__img" />
-                    FAQ
-                </a>
-                <a href="/account.html" class="header-nav__btn">
-                    <img src="/img/svg/cart.svg" alt="cart" class="header-nav__img" />
-                    Корзина
-                </a>
-            </div>
-        </div>
-    </header>
-    <div class="faq">
-        <div class="container">
-            <a href="#nav" class="expandable-btn">
-                <span>
-                    Как получить товар?
-                </span>
-            </a>
-            <div class="expandable" id="nav">
-                <p>Вы сможете получить товар на свою почту, которую вы указали при оплате заказа. Обычно это занимает не
-                    более 5 минут.</p>
-            </div>
-            <a href="#nav2" class="expandable-btn">
-                <span>
-                    Как получить товар?
-                </span>
-            </a>
-            <div class="expandable" id="nav2">
-                Вы сможете получить товар на свою почту, которую вы указали при оплате заказа. Обычно это занимает не
-                более 5 минут.
-            </div>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-organize">
-                <div class="footer-logo">
-                    <span class="footer-nio">NIO</span>STORE
-                </div>
-                <div class="footer-copyright">
-                    © 2023, NioStore. Все права сохранены.
-                </div>
-                <div class="footer-links">
-                    <a href="https://t.me/" class="footer-links__hover">Telegram</a>
-                    |
-                    <a href="https://vk.com/" class="footer-links__hover">VK</a>
+    <body>
+        <header class="header-bg">
+            <div class="container">
+                <div class="header">
+                    <a class="header-logo" href="/index.html">
+                        <img src="/img/svg/logo.svg" alt="logo" />
+                    </a>
+                    <a href="/index.html" class="header-nav__btn">
+                        <img
+                            src="/img/svg/bag.svg"
+                            alt="bag"
+                            class="header-nav__img"
+                        />
+                        Магазин
+                    </a>
+                    <a href="/sales.html" class="header-nav__btn">
+                        <img
+                            src="/img/svg/sale.svg"
+                            alt="sale"
+                            class="header-nav__img-sale"
+                        />
+                        Скидки
+                    </a>
+                    <a href="/faq.html" class="header-nav__btn active">
+                        <img
+                            src="/img/svg/faq.svg"
+                            alt="faq"
+                            class="header-nav__img"
+                        />
+                        FAQ
+                    </a>
+                    <a href="/account.html" class="header-nav__btn">
+                        <img
+                            src="/img/svg/cart.svg"
+                            alt="cart"
+                            class="header-nav__img"
+                        />
+                        Корзина
+                    </a>
                 </div>
             </div>
+        </header>
+        <div class="faq">
+            <div class="container">
+                <div class="faq-title">
+                    Ответы на часто задаваемые вопросы
+                </div>
+                <a href="#nav" class="expandable-btn">
+                    <span> Как получить товар? </span>
+                </a>
+                <div class="expandable" id="nav">
+                    <p>
+                        Вы сможете получить товар на свою почту, которую вы
+                        указали при оплате заказа. Обычно это занимает не более
+                        5 минут. <br />
+                        Если товар не пришел вам на почту в течение указанного
+                        времени: <br />
+                        1. Проверьте правильно ли вы указали почту. <br />
+                        2. Проверьте папку "Спам".
+                    </p>
+                </div>
+                <a href="#nav2" class="expandable-btn">
+                    <span> Что делать, если оплата не прошла? </span>
+                </a>
+                <div class="expandable" id="nav2">
+                    <p>
+                        Если у вас не прошла оплата: <br />
+                        1. Проверьте выключен ли у вас VPN. <br />
+                        2. Перепроверьте данные карты и сумму заказа. <br />
+                        Если данные рекомендации вам не помогли, то обратитесь в
+                        поддержку вашего банка.
+                    </p>
+                </div>
+                <a href="#nav3" class="expandable-btn">
+                    <span> Как вернуть деньги, если товар не понравился? </span>
+                </a>
+                <div class="expandable" id="nav3">
+                    Деньги могут быть возвращены, только если ключ активации
+                    товара оказался не рабочим,<b>
+                        в иных случаях товар возврату не подлежит</b
+                    >. <br />
+                    Для того, чтобы вернуть деньги за нерабочий ключ, вам
+                    необходимо прислать видео на почту <i>help@nio.ru</i>,
+                    начиная с оплаты заказа и заканчивая доказательством
+                    невалидности. ключа.
+                </div>
+                <a href="#nav4" class="expandable-btn">
+                    <span> Какие гарантии и откуда ключи за такие цены? </span>
+                </a>
+                <div class="expandable" id="nav4">
+                    Мы уже много лет на рынке перепродаж игр. У нас есть
+                    доверенные поставщики и мы гордимся нашим товаром. <br>
+                    Только 0,5% ключей оказываются невалидными, что является лучшим
+                    результатом среди СНГ магазинов ключей. У нас большое
+                    количество позитивных отзывов и мы дорожим вашим доверием. <br>
+                    Самая быстрая доставка ключей, самая добрая поддержка и
+                    самые надежные партнеры, одним словом - NioStore.
+                </div>
+            </div>
         </div>
-    </footer>
-</body>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-organize">
+                    <div class="footer-logo">
+                        <span class="footer-nio">NIO</span>STORE
+                    </div>
+                    <div class="footer-copyright">
+                        © 2023, NioStore. Все права сохранены.
+                    </div>
+                    <div class="footer-links">
+                        <a href="https://t.me/" class="footer-links__hover"
+                            >Telegram</a
+                        >
+                        |
+                        <a href="https://vk.com/" class="footer-links__hover"
+                            >VK</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

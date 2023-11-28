@@ -2,6 +2,12 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
+    margin-top: 25px;
+}
+
+.faq-title {
+    font-size: 32px;
+    margin-bottom: 15px;
 }
 
 .expandable {
@@ -21,5 +27,5 @@
 }
 
 .expandable:target {
-    height: 50px;
+    height: 100px;
 }

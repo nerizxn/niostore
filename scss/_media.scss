@@ -97,6 +97,10 @@
     .game-list__item-button {
         font-size: 16px;
     }
+
+    .expandable:target {
+        height: 150px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -152,6 +156,38 @@
         width: 95%;
         height: 100%;
     }
+
+    .game-page__info {
+        flex-direction: column;
+    }
+
+    .game-page__description {
+        margin-top: 15px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .game-page__buy {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .game-page__buy-text {
+        margin: 10px 0 10px 0;
+    }
+
+    .game-page__buy-button {
+        margin: 0 0 10px 0;
+        flex-direction: column;
+    }
+
+    .game-page__table {
+        font-size: 8px;
+    }
+
+    .expandable:target {
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -179,6 +215,10 @@
 
     .game-list__item-button {
         font-size: 16px;
+    }
+
+    .expandable:target {
+        height: 275px;
     }
 }
 
